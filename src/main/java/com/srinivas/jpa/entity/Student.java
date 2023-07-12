@@ -12,6 +12,31 @@ public class Student {
     public int studentID;
     public String studentName;
     public String studentEmail;
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public String getStudentEmail() {
+        return studentEmail;
+    }
+
+    public void setStudentEmail(String studentEmail) {
+        this.studentEmail = studentEmail;
+    }
+
+    public String getStudentAddress() {
+        return studentAddress;
+    }
+
+    public void setStudentAddress(String studentAddress) {
+        this.studentAddress = studentAddress;
+    }
+
     public String studentAddress;
 
     @Override
